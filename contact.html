@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<title>BabyShop</title>
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div id="header">	
+	<div id="header">
 		<a href="index.html">Главная</a>
 		<a href="catalog.html">Каталог</a>
 		<a href="contact.html">Контакты</a>
 		<a href="about.html">О нас</a>
 	</div>
+	<div id="leftMenu">
+		<h2>Меню сайта</h2>
+		<hr>
+		<form>
+			<fieldset>
+				<legend>
+					<h4>У вас есть вопрос? Обязательно оставьте свои контактные данные или свяжитесь с нами!</h4>
+				</legend>
+				<div>
+					<label for="name">Введите ваше имя<input type="text" id="name" placeholder="Ваше имя"></label>
+				</div>
+				<div>
+					<label for="email">Адрес вашей электронной почты<input type="email" id="email" placeholder="Адрес электронной почты"></label>
+				</div>
+				<div>
+					<label for="theme">Укажите тему вашего обращения<input type="text" id="theme" placeholder="Тема вашего обращения"></label>
+				</div>
+				<div>
+					<label for="information">Задайте интересующий вас вопрос или подробно опишите вашу проблему<textarea id="information" placeholder="Ваш вопрос"></textarea></label>
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Задать вопрос">
+					<input type="reset" value="Сбросить форму">
+				</div>
+					
+			</fieldset>
+			<fieldset>
+				<legend>Контакты нашего интернет-магазина</legend>
+				<div>
+					<input type="tel" value="+7-964-995-77-11" id="tel" disabled>
+				</div>
+				<div>
+					<input type="text" value="Russia, Saratov, Polytekchnicheskaya st. 88" id="adress" disabled>			
+				</div>
+				<div>
+					<input type="text" value="jicool912@gmail.com" disabled>
+				</div>	
+			</fieldset>
+		</form>
+	</div>
 	<div id="footer">
 		2015 Все права защищены &copy;
 	</div>
 </body>
+
 </html>
