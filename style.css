@@ -19,6 +19,9 @@ td { border: 1px solid black; }
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	height: 30px;
+	background: rgba(61, 215, 235, 0.81);
+	width: 100%;
 }
 
 a {
@@ -27,20 +30,50 @@ a {
 	font-family: "Comic Sans MS";
 }
 
-li {
-	list-style-type: none;
-}
+
 td {
 	width: 20%;
 	text-align: justify;
 	
 }
-.li-dot {
-	list-style-type: circle;
+.nestle__list__li {
+	list-style-type: none;
+	font-style: oblique;
 }
 
 .content__left-center-right__center {
 	text-align: justify;
 	padding: 5px;
 	padding-right: 10px;
+}
+
+.nestle__h1 {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nestle__desc {
+	background: #eaeaea;
+}
+
+.nestle__description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.nestle__desc_p {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+li:before {
+	content: "\0261e";
+	margin-right: 2px;
+
 }
