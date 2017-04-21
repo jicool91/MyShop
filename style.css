@@ -26,9 +26,14 @@ td { border: 1px solid black; }
 }
 
 a {
-	color: #f224ca;
-	font-size: 20px;
+	color: #0e6269;
+	font-size: 16px;
 	font-family: "Comic Sans MS";
+}
+
+a:hover {
+	color: #f224ca;
+	font-size: 30px;
 }
 
 
@@ -83,12 +88,35 @@ li:before {
 .contacts__form__fieldset__legend_input {
 	width: 201px;
 	height: 20px;
-	color: rgba(229, 73, 44, 0.68);
+	color: black;
 	font-size: 15px;
 	font-style: italic;
 }
 
+.contacts__form__fieldset__legend_input:focus {
+	background: rgba(0, 255, 255, 0.31);
+}
+
+.contacts__form__fieldset__legend_input:invalid {
+	background: rgba(255, 0, 0, 0.28);
+}
+
+
+
 .header__nav-menu__back {
 	position: absolute;
 	left: 0;
+}
+
+.name {
+	text-transform: capitalize;
+}
+
+img:hover {
+	width: 100%;
+}
+
+.goods p:first-letter {
+	font-style: italic;
+	font-size: 30px;
 }
