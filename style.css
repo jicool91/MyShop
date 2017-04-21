@@ -22,6 +22,7 @@ td { border: 1px solid black; }
 	height: 30px;
 	background: rgba(61, 215, 235, 0.81);
 	width: 100%;
+	text-align: center;
 }
 
 a {
@@ -76,4 +77,18 @@ li:before {
 	content: "\0261e";
 	margin-right: 2px;
 
+}
+
+
+.contacts__form__fieldset__legend_input {
+	width: 201px;
+	height: 20px;
+	color: rgba(229, 73, 44, 0.68);
+	font-size: 15px;
+	font-style: italic;
+}
+
+.header__nav-menu__back {
+	position: absolute;
+	left: 0;
 }

@@ -8,8 +8,9 @@
 </head>
 
 <body>
-	<div class="header">
+	<div class="header">		
 		<div class="header__nav-menu">
+			<a class="header__nav-menu__back" href="catalog.html">Вернуться к каталогу</a>
 			<a class="header__nav-menu__index" href="index.html">Главная</a>
 			<a class="header__nav-menu__catalog" href="catalog.html">Каталог</a>
 			<a class="header__nav-menu__contact" href="contact.html">Контакты</a>
@@ -19,14 +20,16 @@
 			<table>
 				<tr>
 					<td class="nestle__img">
-						<a href="nan1.html"><img src="img/nestle1.jpg" alt="NAN" width="600px"></a>
+						<a href="nan1.html"><img src="img/nestle1.jpg" alt="NAN" width="400px"></a>
 
 					</td>
 					<td class="nestle__desc">
 						<h1 class="nestle__h1">Nestlé®</h1>
 						<h1 class="nestle__h1">Молочная гречневая каша</h1> 
 						<p class="nestle__desc_p">Для первого прикорма. Молочная гречневая каша. Не варить! Кашу следует готовить непосредственно перед каждым кормлением. Следуйте инструкции...</p><br>
-						<a href="catalog.html">Вернуться к каталогу</a>
+						<strong>Стоимость одной упаковки </strong><input class="price" type="text" value="950" disabled>р<br> 
+						<label for="quantity">Укажите количество:<input type="number" id="quantity" min=1 value="1"></label>
+						<br><input type="button" value="ЗАКАЗАТЬ">					
 					</td>
 				</tr>
 				<tr>
