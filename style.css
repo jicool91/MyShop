@@ -4,6 +4,9 @@ body {
 	background: #f8f8f8;
 }
 
+tr { border: 1px solid black; }
+td { border: 1px solid black; }
+
 .header__nav-menu {
 	background: #ccc;
 	text-align: right;
@@ -26,4 +29,18 @@ a {
 
 li {
 	list-style-type: none;
+}
+td {
+	width: 20%;
+	text-align: justify;
+	
+}
+.li-dot {
+	list-style-type: circle;
+}
+
+.content__left-center-right__center {
+	text-align: justify;
+	padding: 5px;
+	padding-right: 10px;
 }
