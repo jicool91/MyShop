@@ -33,7 +33,6 @@ a {
 
 a:hover {
 	color: #f224ca;
-	font-size: 30px;
 }
 
 
@@ -112,11 +111,93 @@ li:before {
 	text-transform: capitalize;
 }
 
-img:hover {
-	width: 100%;
-}
-
 .goods p:first-letter {
 	font-style: italic;
 	font-size: 30px;
+}
+
+.left-menu {
+	font-size: 1rem;
+	display: inline-block;
+	width: 25%;
+	background: #a89e9e;
+}
+
+.content {
+	font-size: 1rem;
+	display: inline-block;
+	width: 50%;
+	background: #ccc;
+	vertical-align: top;
+}
+
+.right-menu {
+	font-size: 1rem;
+	display: inline-block;
+	width: 25%;
+	background: #eee;
+}
+
+.center {
+	font-size: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	font-size: 0;
+	height: 70px;
+	vertical-align: top;
+}
+
+.header-logo {
+	width: 25%;
+	display: inline-block;
+	font-size: 1rem;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+.header-nav {
+	width: 50%;
+	display: inline-block;
+	font-size: 1rem;
+	position: relative;
+	text-align: center;
+	bottom: 10px;
+}
+
+.header-exit {
+	font-size: 1rem;
+	width: 25%;
+	display: inline-block;
+	background: #ccc;
+}
+
+.header-nav__li {
+	display: inline-block;
+	width: 22%;
+}
+
+.header-login-exit {
+	display: inline-block;
+	width: 25%;
+	font-size: 1rem;
+	position: relative;
+	bottom: 10px;
+}
+
+.header-login-exit__li {
+	display: inline-block;
+	width: 20%;
+	padding-left: 20px;
+	text-align: right;
+}
+
+
+.nestle {
+	font-size: 1rem;
 }
