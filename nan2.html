@@ -9,13 +9,24 @@
 
 <body>
 	<div class="header">
-		<div class="header__nav-menu">
-			<a class="header__nav-menu__back" href="catalog.html">Вернуться к каталогу</a>
-			<a class="header__nav-menu__index" href="index.html">Главная</a>
-			<a class="header__nav-menu__catalog" href="catalog.html">Каталог</a>
-			<a class="header__nav-menu__contact" href="contact.html">Контакты</a>
-			<a class="header__nav-menu__about" href="about.html">О нас</a>
+		<div class="header-logo">
+			<img src="img/img1.png" alt="">
 		</div>
+		<div class="header-nav">
+			<ul>
+				<li class="header-nav__li"><a href="index.html">Главная</a></li>
+				<li class="header-nav__li"><a href="catalog.html">Каталог</a></li>
+				<li class="header-nav__li"><a href="contact.html">Контакты</a></li>
+				<li class="header-nav__li"><a href="about.html">О нас</a></li>
+			</ul>
+		</div>
+		<div class="header-login-exit">
+			<ul>
+				<li class="header-login-exit__li"><a href="">login</a></li>
+				<li class="header-login-exit__li"><a href="">exit</a></li>
+			</ul>
+		</div>
+
 		<div class="nestle">
 			<table>
 				<tr>
@@ -27,9 +38,9 @@
 						<h1 class="nestle__h1">Nestlé®</h1>
 						<h2 class="nestle__h2">Молочная Рисовая каша</h2>
 						<p class="nestle__desc_p">Для первого прикорма. Молочная рисовая каша. Не варить! Кашу следует готовить непосредственно перед каждым кормлением. Следуйте инструкции на...</p><br>
-						<strong>Стоимость одной упаковки </strong><input class="price" type="text" value="950" disabled>р<br> 
+						<strong>Стоимость одной упаковки </strong><input class="price" type="text" value="950" disabled>р<br>
 						<label for="quantity">Укажите количество:<input type="number" id="quantity" min=1 value="1"></label>
-						<br><input type="button" value="ЗАКАЗАТЬ">		
+						<br><input type="button" value="ЗАКАЗАТЬ">
 					</td>
 				</tr>
 				<tr>
@@ -45,7 +56,8 @@
 							<li class="nestle__list__li">мальтодестрин</li>
 							<li class="nestle__list__li">сахар</li>
 							<li class="nestle__list__li">витамины и минеральные вещества</li>
-							<li class="nestle__list__li">бифидобактерии не менее 1х<10sup>⁶</10sup> КОЕ/г</li>
+							<li class="nestle__list__li">бифидобактерии не менее 1х
+								<10sup>⁶</10sup> КОЕ/г</li>
 							<li class="nestle__list__li">содержит 10 витаминов и 5 минеральных веществ</li>
 						</ul>
 					</td>
